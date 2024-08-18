@@ -609,6 +609,11 @@ video {
   margin-right: 0.75rem;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mx-8{
   margin-left: 2rem;
   margin-right: 2rem;
@@ -632,16 +637,6 @@ video {
 .my-auto{
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.mx-10{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
-
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 .-mt-5{
@@ -724,6 +719,10 @@ video {
   margin-left: auto;
 }
 
+.mr-12{
+  margin-right: 3rem;
+}
+
 .mr-2{
   margin-right: 0.5rem;
 }
@@ -778,10 +777,6 @@ video {
 
 .mt-auto{
   margin-top: auto;
-}
-
-.mr-12{
-  margin-right: 3rem;
 }
 
 .flex{
@@ -983,6 +978,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-sm{
+  border-radius: 0.125rem;
+}
+
 .border{
   border-width: 1px;
 }
@@ -1017,14 +1016,19 @@ video {
   background-color: rgb(196 210 90 / var(--tw-bg-opacity));
 }
 
+.bg-blue-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-blue-600{
+.bg-purple-300{
   --tw-bg-opacity: 1;
-  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+  background-color: rgb(216 180 254 / var(--tw-bg-opacity));
 }
 
 .bg-cover{
@@ -1055,6 +1059,10 @@ video {
 
 .p-4{
   padding: 1rem;
+}
+
+.p-1{
+  padding: 0.25rem;
 }
 
 .px-12{
@@ -1095,6 +1103,21 @@ video {
 .py-\[9px\]{
   padding-top: 9px;
   padding-bottom: 9px;
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .pb-12{
@@ -1257,6 +1280,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-purple-800{
+  --tw-text-opacity: 1;
+  color: rgb(107 33 168 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1271,10 +1299,6 @@ video {
 
 .opacity-\[0\.71\]{
   opacity: 0.71;
-}
-
-.opacity-50{
-  opacity: 0.5;
 }
 
 .shadow-md{
@@ -1338,8 +1362,17 @@ video {
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-purple-300:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 180 254 / var(--tw-bg-opacity));
+}
+
 .hover\:font-semibold:hover{
   font-weight: 600;
+}
+
+.hover\:font-extrabold:hover{
+  font-weight: 800;
 }
 
 .hover\:text-blue-200:hover{
